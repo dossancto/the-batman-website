@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "Usuario";
 }
-
+<div class="text-user">
 <h2>Usuario</h2>
 
 
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Cadastro de Usuario</h4>
+        <h4>Cadastro do Batcomputador</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -23,13 +23,16 @@
             </div>
         </div>
 
+        <div class="box-align"></div>
         <div class="form-group">
             @Html.LabelFor(model => model.Observacao, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextAreaFor(model => model.Observacao, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Observacao, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Observacao, "", new { @class = "text-danger" })
+                  </div>
             </div>
         </div>
+      
 
         <div class="form-group">
             @Html.LabelFor(model => model.Idade, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -70,16 +73,22 @@
                 @Html.ValidationMessageFor(model => model.Confsenha, "", new { @class = "text-danger" })
             </div>
         </div>
+        <br>
+        
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Cadastrar" class="btn btn-default" />
+                <input type="submit" value="Cadastrar"  style="bold" class="btn-default" />
             </div>
         </div>
-    </div>
-}
 
-<div>
+ 
+}
+<br>
+
+
+<div class="btn-volt">
     @Html.ActionLink("Voltar", "Index")
 </div>
 
+</div>

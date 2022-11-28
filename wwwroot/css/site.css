@@ -1,8 +1,9 @@
 html {
   font-size: 14px;
+  background-color: black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   html {
     font-size: 16px;
   }
@@ -15,4 +16,108 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: black;
+}
+
+.batmani{
+  width: 900px;
+  height: auto;
+  border-radius: 30px;
+  margin-left: 0px;
+ 
+}
+
+.card-text{
+  text-align: center;
+  color:gold;
+}
+
+.card-title{
+  text-align: center;
+  color:gold;
+
+
+}
+.nav-link{
+  color:gold;
+}
+
+.text-center{
+  color:gold;
+}
+
+.card{
+ background-color: black;
+ border-width: 10px;
+ border-color:gold;
+ border-radius: 30px;
+}
+
+
+
+
+.navbar{
+  border-width: 5px;
+}
+
+*{
+  background-color: black;
+}
+
+.container{
+  text-align: center;
+}
+
+text{
+  color:gold;
+}
+
+.form-group{
+  text-align: center;
+  width: auto;
+  height: auto;
+  color: gold;
+}
+
+.text-user{
+  color:gold;
+}
+
+.dl-horizontal{
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.text-top{
+  margin-top: 120px;
+}
+
+.col-md-10{
+  width: 50%;
+  height:60x;
+  margin: auto;
+  text-align: center;
+}
+
+.box-align{
+  color: white;
+  
+}
+
+
+.btn-default{
+  border-width: 6px;
+  background-color: gold;
+  border-radius: 15px;
+  border-color:gold;
+
+}
+
+.logue{
+  width: 50%;
+  height: auto;
+  margin-left: 280px;
+
+
+  
 }
