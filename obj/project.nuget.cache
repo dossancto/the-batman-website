@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TUoqs41QNYhgLCa3LlEm0ZgkleevdGFanLZd9iMgdDZu+l+bd8Z4r7zOVJxI36rfAzUhQRYxWCso3PyeUtvHtQ==",
+  "dgSpecHash": "WBz0MwYswvGseTn806p647KgWsNGrnz5oCYlXkZ5Xfc2ZGimRHuwEp+HBJcFInSTQoVJC03Ua47AZiuyey5vQA==",
   "success": true,
-  "projectFilePath": "C:\\cloneGITASP\\the-batman-website\\aspneto.csproj",
+  "projectFilePath": "C:\\webasp\\the-batman-website\\aspneto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\cloneGITASP\\the-batman-website\\aspneto.csproj",
+      "projectUniqueName": "C:\\webasp\\the-batman-website\\aspneto.csproj",
       "projectName": "aspneto",
-      "projectPath": "C:\\cloneGITASP\\the-batman-website\\aspneto.csproj",
+      "projectPath": "C:\\webasp\\the-batman-website\\aspneto.csproj",
       "packagesPath": "C:\\Users\\luiss\\.nuget\\packages\\",
-      "outputPath": "C:\\cloneGITASP\\the-batman-website\\obj\\",
+      "outputPath": "C:\\webasp\\the-batman-website\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
